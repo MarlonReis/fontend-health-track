@@ -1,0 +1,324 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-image: linear-gradient(to top right, #0E0F14 1%, #474B63 99%);
+}
+
+.header-container {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container .drawer-container-tens {
+    width: 100%;
+}
+
+.navigate-drawer .user-profile-container {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+.user-profile-container .image-container {
+    background-image: url("../image/woman.jpg");
+    border-radius: 50%;
+    border: 4px solid #5E5F64;
+    width: 218px;
+    height: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 28px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact .user-full-name {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.contact .user-email {
+    color: #2CDA9D;
+}
+
+.drawer-container-tens .divider {
+    width: 80%;
+    height: 1px;
+    margin-top: 16px;
+    position: relative;
+    background-color: #474B63;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drawer-container-tens .nav-item i {
+    color: white;
+    font-size: 28px;
+    margin-right: 16px;
+}
+
+.drawer-container-tens .nav-item {
+    margin-top: 8px;
+    color: #2CDA9D;
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 20px 10px;
+}
+
+.drawer-container-tens .nav-item:hover {
+    background-color: #343849;
+    border-bottom: 2px solid #2CDA9D;
+    border-top: 2px solid #2CDA9D;
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    .navigate-drawer .user-profile-container {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .user-profile-container .image-container {
+        border: 4px solid #5E5F64;
+        width: 280px;
+        height: 280px;
+        margin-bottom: 28px;
+    }
+
+    .contact {
+        font-size: 24px;
+    }
+
+    .drawer-container-tens .nav-item {
+        margin-top: 12px;
+        padding: 30px 15px;
+        margin-left: 24px;
+        font-size: 24px;
+    }
+
+    .drawer-container-tens .nav-item i {
+        font-size: 24px;
+    }
+}
+
+/* ----------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .navigate-drawer .user-profile-container {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .user-profile-container .image-container {
+        border: 4px solid #5E5F64;
+        width: 218px;
+        height: 218px;
+        margin-bottom: 20px;
+        background-color: aliceblue;
+    }
+
+    .contact {
+        font-size: 24px;
+    }
+
+    .contact .user-full-name {
+        margin-bottom: 20px;
+    }
+
+    .drawer-container-tens .nav-item {
+        margin-top: 12px;
+        padding: 20px 10px;
+        font-size: 24px;
+    }
+
+    .drawer-container-tens .nav-item i {
+        font-size: 24px;
+    }
+}
+
+
+
+/* ----------------------------------------------- */
+@media screen and (max-width: 414px) {
+    .navigate-drawer .user-profile-container {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .user-profile-container .image-container {
+        border: 2px solid #5E5F64;
+        width: 170px;
+        height: 170px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        font-size: 16px;
+    }
+
+    .drawer-container-tens .nav-item {
+        margin-top: 8px;
+        padding: 15px 10px;
+        margin-left: 24px;
+        font-size: 16px;
+    }
+
+    .drawer-container-tens .nav-item i {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navigate-drawer .user-profile-container {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .user-profile-container .image-container {
+        border: 2px solid #5E5F64;
+        width: 160px;
+        height: 160px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        font-size: 16px;
+    }
+
+    .drawer-container-tens .nav-item {
+        margin-top: 8px;
+        padding: 12px 10px;
+        margin-left: 24px;
+        font-size: 16px;
+    }
+
+    .drawer-container-tens .nav-item i {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .navigate-drawer .user-profile-container {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .user-profile-container .image-container {
+        border: 2px solid #5E5F64;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+        background-color: aliceblue;
+    }
+
+    .contact {
+        font-size: 12px;
+    }
+
+    .contact .user-full-name {
+        margin-bottom: 5px;
+    }
+
+    .drawer-container-tens .nav-item {
+        margin-top: 8px;
+        padding: 10px 10px;
+        margin-left: 24px;
+        font-size: 12px;
+    }
+
+    .drawer-container-tens .nav-item i {
+        font-size: 12px;
+    }
+}
+
+.information-container::before {
+    content: '';
+}
+
+.information-container {
+    padding-top: 90px;
+    width: 100%;
+    height: 870px;
+    display: block;
+}
+
+.information-container .day-of-the-week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.information-container .day-of-the-week .day {
+    margin-left: 25px;
+    width: 64px;
+    padding: 25px 20px;
+    background-color: #404359;
+    font-size: 35px;
+    color: #2CDA9D;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.information-container .day-of-the-week .day:hover {
+    background-color: #3D415B;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.information-container .day-of-the-week .today {
+    background-color: #2CDA9D;
+    color: white;
+}
+
+.cards {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 240px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cards .card .card-title {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+}
+
+.cards .card .card-title img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.cards .card .chart {
+    margin-left: auto;
+    width: 20em;
+    height: 10em;
+}
