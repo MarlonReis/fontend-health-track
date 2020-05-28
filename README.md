@@ -1,11 +1,18 @@
 # Fontend do projeto Health Track
-
 Esse projeto responsivo foi desenvolvido utilizando as tecnologias:
-
 - HTML 5
 - CSS 3
 - JavaScript
 
-# Interface de Login
+# Login
+
 ![picture](prints/login.PNG)
+
 ![picture](prints/login-responsivo.PNG)
+
+  
+# Criar uma conta
+
+![picture](prints/register-responsive.PNG)
+
+![picture](prints/registrar.PNG)
