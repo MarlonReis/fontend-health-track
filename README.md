@@ -7,4 +7,4 @@ Esse projeto responsivo foi desenvolvido utilizando as tecnologias:
 - JavaScript
 
 # Interface de Login
-![picture](https://github.com/MarlonReis/fontend-health-track/print/login-responsivo.PNG)
+![picture](https://github.com/MarlonReis/fontend-health-track/prints/login-responsivo.PNG)
