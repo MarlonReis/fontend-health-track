@@ -55,5 +55,4 @@ const createChart = (component, typeChat, dataChart) => {
             data: [160, 152, 148, 130]
         }]
     });
-
 })();
