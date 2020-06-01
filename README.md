@@ -17,3 +17,9 @@ Esse projeto responsivo foi desenvolvido utilizando as tecnologias:
 ![picture](prints/registrar.PNG)
 
 ![picture](prints/register-responsive.PNG)
+
+# Dashboard 
+
+![picture](prints/dashboard.PNG)
+
+![picture](prints/dashboard-nav-open.PNG)
