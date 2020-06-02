@@ -3,7 +3,22 @@ const createChart = (component, typeChat, dataChart) => {
     new Chart(component, {
         type: typeChat,
         data: dataChart,
-        options: {}
+        options: {
+            maintainAspectRatio: false,
+            scales: {
+                yAxes: [{
+                    stacked: true,
+                    gridLines: {
+                        display: true
+                    }
+                }],
+                xAxes: [{
+                    gridLines: {
+                        display: false
+                    }
+                }]
+            }
+        }
     });
 }
 
