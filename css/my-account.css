@@ -1,0 +1,109 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top right, #0E0F14 1%, #474B63 99%);
+}
+
+.container {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+.container .wizard-steps {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2CDA9D;
+    font-size: 50px;
+    height: 45px;
+    width: 500px;
+}
+
+.container .wizard-steps h2 {
+    text-align: center;
+}
+
+.container .wizard-steps .step-container {
+    margin-top: 32px;   
+}
+
+.container .wizard-steps .step {
+    font-size: 32px;
+    color: white;
+    width: 32px;
+    height: 32px;
+    background-color: #4E536D;
+    border-radius: 50%;
+}
+
+
+.form-wizard .form-wizard-header {
+    text-align: center;
+}
+
+.form-wizard .form-wizard-steps {
+    margin: 30px 0;
+}
+
+.form-wizard .form-wizard-steps li {
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.form-wizard .form-wizard-steps li::after {
+    background-color: #4E536D;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    border-bottom: 1px solid #4E536D;
+    border-top: 1px solid #4E536D;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form-wizard .form-wizard-steps li span {
+    display: inline-block;
+    background-color: #4E536D;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form-wizard .form-wizard-steps li:last-child::after {
+    width: 50%;
+}
+
+.form-wizard .form-wizard-steps li.active span,
+.form-wizard .form-wizard-steps li.activated span {
+    background-color: #2CDA9D;
+}
+
+.form-wizard-steps li.active::after,
+.form-wizard-steps li.activated::after {
+    background-color: #2CDA9D;
+    border-color: #2CDA9D;
+    left: 50%;
+    width: 50%;
+}
+
+.form-wizard .form-wizard-steps li.activated::after {
+    width: 100%;
+    border-color: #2CDA9D;
+}

@@ -17,4 +17,13 @@ $(document).ready(function () {
         $(".register-header").removeClass("active");
     });
 
+    $("#form-login").submit(function (event) {
+        event.preventDefault();
+
+        const email = $('#email-login').val();
+        const password = $('#password-login').val();
+        if (email === "marlon@fiap.com.br" && password === "RM84127") {
+            window.location.href = 'dashboard.html'; 
+        }
+    });
 });
